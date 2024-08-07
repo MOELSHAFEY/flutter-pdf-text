@@ -111,7 +111,7 @@ allows you not to waste time loading text that you will probably not use. When y
 ### PDFDoc
 
 | Return  | Description  |
-|---|---|
+|------|
 | PDFPage | **pageAt(int pageNumber)** <br> Gets the page of the document at the given page number. |
 | static Future\<PDFDoc> | **fromFile(File file, {String password = ""})** <br> Creates a PDFDoc object with a File instance. Optionally, takes a password for encrypted PDF documents.|
 | static Future\<PDFDoc> | **fromPath(String path, {String password = ""})** <br> Creates a PDFDoc object with a file path. Optionally, takes a password for encrypted PDF documents.|
